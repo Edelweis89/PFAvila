@@ -1,0 +1,919 @@
+html {
+  font-size: 62.5%; /* asignar unidad de medida 1rem ==16px por 1rem ==10px */
+}
+
+
+* {
+  padding: 0; /* reseteamos valores por defecto de html5 */
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+/* Tipografia Local */
+
+@font-face {
+  font-family: "poppins";
+  src: url(../fonts/Poppins-Light.ttf);
+  
+}
+
+
+/* Mobile First */
+.header {
+  width: 100%;
+  height: 15rem;
+  font-size: 1.2rem;
+  font-family: "poppins";
+  background-color: #fca311;
+  color: #ffffff;
+  display: flex;
+  justify-content:space-between;
+  
+  align-items:center;
+  grid-area: header;
+  
+  
+  
+}
+
+header img {
+width: 7rem;
+height: 7rem;
+
+
+}
+
+
+
+header ,nav ,ul ,li,a {
+  color: #000000;
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  gap: 1rem;
+  
+  
+  
+  
+
+}
+
+.publicidad { 
+
+width: 35%;
+display: none;
+background-color: #fca311;
+
+
+}
+
+
+
+.bodyIndex {
+  font-family: "poppins";
+  background-color: #0a100d;
+  color: #fffcf2;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-areas: 
+  "header header"
+  "imagenportada imagenportada "
+  "fondotext fondotext "
+  "footer footer ";
+  flex-wrap: wrap;
+  height: 100vh;
+  gap: 2rem;
+
+}
+
+
+.imagenportada , img{
+
+  
+  
+  display: block;
+  right: 5rem;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  
+  justify-content:flex-start;
+  grid-area: imagenportada;
+
+
+
+}
+
+
+
+
+
+.fondotext   {
+  
+  font-size: 18px;
+  color: #fffcf2;
+  position: relative;
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  background-color:transparent;
+  grid-area: fondotext;
+  
+  
+}
+
+.text1 {
+
+color: #edf6f9;
+text-align: center;
+align-items: center;
+font-size: 4rem;
+margin-bottom: 4rem;
+
+
+}
+
+
+.wbflot img{ width: 50px; height: 50px; position: fixed; top: 70%; left: 85%; border-radius:  10rem; -webkit-border-radius:10rem; -moz-border-radius:10rem; -ms-border-radius:10rem; -o-border-radius:10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  
+}
+
+
+.footer {
+  font-family: "poppins";
+  font-size: 2rem;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:space-between;
+  background-color: #fca311;
+  grid-area: footer;
+  
+}
+
+.footer img{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 40px;
+    height: 40px;
+}
+
+footer .f {
+  font-family: "poppins";
+  font: bold;
+  font-size: 1rem;
+  color: #070500;
+  margin: 1rem;
+  
+  
+
+}
+
+.imgrs {
+
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+/*  empresa.html mobile first */
+
+.bodyempresa{ 
+  display: grid;
+  grid-template-columns: 2fr ;
+  grid-template-rows: repeat(4, 2fr) ;
+  grid-template-areas: 
+  "header header"
+  "carousel carousel"
+  "textempresa textempresa"
+  "footer footer ";
+  flex-wrap: wrap;
+  height: 100vh;
+  gap: 0.2rem;
+  background-color: #0a100d;
+  
+
+}
+
+
+#carouselExampleAutoplaying { 
+
+  grid-area: carousel;
+  
+  
+  }
+
+
+
+.textempresa {
+  
+  
+  
+  color: #fefae0;
+  font-size: 1.2rem;
+  display: flex;
+  font-family: 'poppins';
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 1rem;
+  width: 100%;
+  
+  
+
+
+}
+
+.navempresa {
+
+  width: 35%;
+  background-color: #14633b;
+  grid-area: navempresa;
+  display: none;
+  
+  
+    }
+
+    .font-monospace {
+      font-size: 1.5rem;
+      color: #fefae0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+  
+  
+  
+  
+    } 
+
+
+/* fin de Mobile First */
+
+/* Query para tablets */
+
+@media screen and (min-width: 480px) and (max-width:1199px){
+
+  .header {
+    
+    font-size: 1.6rem;
+    
+    
+  }
+  
+  header img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.bodyIndex {
+  display: grid;
+  grid-template-columns:  2fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr 0.2fr;
+  grid-template-areas: 
+  "header header "
+  "img-fluid img-fluid"
+  "fondotext fondotext"
+  "footer footer ";
+  flex-wrap: wrap;
+  height: 100vh;
+  
+
+}
+
+
+.img-fluid {
+
+  position: relative;
+  grid-area: img-fluid;
+  top: 2%;
+  
+  
+
+}
+
+.publicidad { 
+
+  width: 100%;
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  background-color:#14633b;
+  grid-area: publicidad;
+  height: 100vh;
+  }
+
+.fondotext   {
+  font-size: 14px;
+  
+  flex-wrap: wrap;
+  width: 90%;
+  bottom: 1rem;
+  text-align: left;
+  grid-area: fondotext;
+}
+
+.text1 {
+
+  color: #fca311;
+  text-align: left;
+  align-items: center;
+  font-size: 2rem;
+  
+  
+  
+  }
+
+
+
+  .wbflot img{ width: 50px; height: 50px; position: fixed; top: 80%; left: 95%; border-radius:  10rem; -webkit-border-radius:10rem; -moz-border-radius:10rem; -ms-border-radius:10rem; -o-border-radius:10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+  }
+
+  footer  .footer {
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content: space-between;
+    
+    grid-area: footer;
+    
+  }
+  
+  footer img{
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+  footer .f {
+    font-family: "poppins";
+    font: bold;
+    font-size: 1.5rem;
+    color: #070500;
+    margin: 1rem;
+    
+    
+    
+  
+  }
+
+  /* empresa.html query tablet */
+
+  .bodyempresa { 
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    grid-template-areas: 
+    "header header"
+    "carousel carousel"
+    "textempresa textempresa"
+    "footer footer";
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 2rem;
+    background-color: #0a100d;
+    
+  
+  }
+  
+  
+  #carouselExampleAutoplaying { 
+
+    grid-area: carousel;
+    margin: 4rem;
+    
+    
+    }
+  
+  .textempresa {
+    
+    
+    width: 100%;
+    
+    color: #fefae0;
+    font-size: 1.5rem;
+    display: flex;
+    font-family: 'poppins';
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    margin: 2rem;
+    
+    
+  
+  
+  }
+  
+  .font-monospace {
+    font-size: 4rem;
+    color: #fefae0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+
+
+
+  } 
+
+}
+
+/* Query para Desktop */
+
+@media screen and (min-width: 1200px) {  
+
+
+
+  .header {
+    width: 100%;
+    height: 10rem;
+    font-size: 1.5rem;
+    font-family: "poppins";
+    background-color: #fca311;
+    
+    display: flex;
+    justify-content:space-between;
+    
+    align-items:center;
+    grid-area: header;
+    
+    
+    
+  }
+  
+  header img {
+  width: 9rem;
+  height: 9rem;
+  
+  
+  }
+
+  
+
+  .bodyIndex {
+    display: grid;
+    grid-template-columns:  2fr 2fr 0.1fr;
+    grid-template-rows: 2fr 2fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "img-fluid img-fluid publicidad"
+    "fondotext fondotext publicidad"
+    "footer footer footer";
+    flex-wrap: wrap;
+    height: 100vh;
+
+    
+  
+  }
+  
+  
+  .img-fluid {
+  
+    position: relative;
+    grid-area: img-fluid;
+    
+    left: 25%;
+    width: 50%;
+    
+  
+  }
+
+.fondotext   {
+  
+  font-size: 20px;
+  color: #fffcf2;
+  position: relative;
+top: 1rem;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+  background-color:transparent;
+  grid-area: fondotext;
+  left: 15%;
+  
+  
+  
+}
+
+.text1 {
+
+color: #fca311;
+text-align: center;
+align-items: center;
+font-size: 7rem;
+position: relative;
+top: 1rem;
+
+
+
+}
+
+
+
+.publicidad { 
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  background-color:transparent;
+  grid-area: publicidad;
+  height: 100vh;
+  }
+
+  .wbflot img{ width: 50px; height: 50px; position: fixed; top: 80%; left: 95%; border-radius:  10rem; -webkit-border-radius:10rem; -moz-border-radius:10rem; -ms-border-radius:10rem; -o-border-radius:10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+  }
+
+.footer {
+  
+  align-items:center;
+  justify-content:space-between;
+  
+}
+
+footer .f {
+  
+  font-size: 2rem;
+  justify-content:space-between;
+
+}
+
+/* empresa.html query desktop */
+
+
+
+.bodyempresa { 
+  display: grid;
+  grid-template-columns:  1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr ;
+  grid-template-areas: 
+  "header header "
+  "carousel navempresa"
+  "carousel textempresa" 
+  "footer footer ";
+  flex-wrap: wrap;
+  height: 100vh;
+  gap: 0rem;
+  background-color: #0a100d;
+  
+
+}
+
+
+.portada {
+  
+  grid-area:carousel ;
+  
+
+}
+
+#carouselExampleAutoplaying { 
+
+grid-area: carousel;
+margin: 4rem;
+
+
+}
+
+.textempresa {
+  
+  
+  width: 100%;
+  
+  color: #fefae0;
+  font-size: 2rem;
+  display: flex;
+  font-family: 'poppins';
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem;
+  grid-area: textempresa;
+  
+  
+
+
+}
+
+
+
+.font-monospace {
+  font-size: 4rem;
+  color: #fefae0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+
+
+
+}  
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  contacto.html */
+
+.contacto {
+  
+  background-color: #0a100d;
+  color: #ffffff;
+  font-family: "poppins";
+  display: grid;
+  height: 100vh;
+  grid-template-columns:3fr 1fr  ;
+  grid-template-rows: 1fr 1fr   ;
+  grid-template-areas: 
+  
+  "header header  "
+  "divs  mapa "
+  "divs  form "
+  "footer footer  ";
+
+  
+
+}
+
+.titulo-c{
+
+
+  color: #fca311;
+  font-size: 6rem;
+  display: grid;
+  flex-direction: column;
+  margin: 5rem;
+  margin-top: 1rem;
+  text-align: left;
+
+}
+
+.form {
+
+  width: 60%;
+  font-size: 2rem;
+  height: 500px;
+  background-color: transparent;
+  color: #ffffff;
+  display: grid;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  margin: 7rem;
+  position: relative;
+  bottom: 4rem;
+  
+  grid-area: form;
+  
+}
+
+
+
+label  {
+
+  margin-bottom: 2rem;
+  margin-right: 1px;
+}
+
+input  {
+
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  background-color: #000000;
+  color: rgb(255, 136, 0);
+  font-size: 1rem;
+
+}
+
+.horarios {
+
+height: 300px;
+font-size: 2rem;
+background-color: transparent;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+text-align: left;
+position: relative;
+margin: 2rem;
+top: 2rem;
+bottom: 25rem;
+left: 4rem;
+grid-area: horarios;
+
+}
+
+.mapa {
+  
+  background-color: transparent;
+  flex-wrap: wrap;
+  flex-direction: column;
+  left: 10rem;
+  right: 5rem;
+  grid-area: mapa;
+
+  
+  
+  
+  }
+
+  .divs {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    grid-area: divs;
+  }
+
+  
+
+  /* productos.html agregamos estructura con Grid*/
+
+  /* Propiedades del Contenedor */
+
+
+  .falsobody {
+    
+    background-color: #0a100d;
+    display: grid;
+    
+    height: 100vh;
+
+    /* crear columnas */
+    grid-template-columns:1fr 2fr 4fr ;
+
+    /* crear filas */
+    grid-template-rows:1fr 2fr 1fr ;
+
+    grid-template-areas: 
+    
+        "header header header "
+        "navprod img-prod img-prod"
+        "navprod img-prod img-prod"
+        "footer footer footer  ";
+        gap: 2px;
+
+  }
+
+  /* Propiedades de los items */
+
+  .img-prod {
+    
+    background-color: #0a100d;
+    height: 100vh;
+    grid-area: img-prod;
+    color: #dee2e6;
+    font-family: 'poppins';
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
+  .div-prod {
+    
+    background-color: #0a100d;
+    grid-area: img-prod;
+    color: #dee2e6;
+    font-family: 'poppins';
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+  }
+
+  .div-prod img{
+     display: flex;
+    background-color: #14633b;
+    margin: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+
+  }
+
+  
+
+  .navprod{
+
+    background-color: transparent;
+    
+    grid-area: navprod;
+  
+    
+  
+  }
+
+  .linkprod {
+  
+    font-size: 2rem;
+    color: #fca311;
+    list-style:circle;
+  }
+  
+/* Mediaquery Diseño Responsive Tablets */
+
