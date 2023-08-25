@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-  <!--esto de aca indica en que idioma esta el "en" indica ingles y "es" indica español-->
   <head>
     <meta charset="UTF-8" />
-    <!-- esto indica que tipo de caracteres se usara, el "UTF-8" indica que usa caracteres españoles-->
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--Bootstrap-->
 
     <!--CSS-->
     <link rel="stylesheet" href="../css/estilo.css" />
     <!--CSS-->
-
     <link rel="icon" type="image/png" href="../multimedia/mundoport.jpeg">
-    <title>MundoPort</title>
-    <!-- esto indica el titulo que aparece en la parte arriba en la pesataña del buscador-->
+    <title>Contacto</title>
   </head>
 
-  <body >
+  <body>
 
     <div class="contacto"> 
 
@@ -23,80 +23,91 @@
         <!-- encabezado-->
         
   
-        <a href="../index.html" > <img src="../multimedia/mundoport.jpeg"  width="60" height="60" alt="MDN" /></a>
+        <!-- <img src="multimedia/mundoport.jpeg"  width="40" height="40" alt="MDN"  />  -->
+        
+      <img src="../multimedia/mundoport.jpeg" class="rounded-circle" alt="logomundoport">
   
-        <nav class="navmenu">
-          
   
-          <ul>
-            <li>
-              <a href="empresa.html">Quienes Somos </a>
-            </li>
-            <li>
-              <a href="productos.html">Productos </a>
-            </li>
-            <li>
-              <a href="servicios.html">Servicios </a>
-            </li>
-            <li>
-              <a href="contacto.html">Contacto </a>
-            </li>
-            
-          </ul>
-        </nav>
+        <!-- <nav class="navmenu"> -->
+  
+          <nav class="navbar navbar-expand-lg bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Mundoport</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="empresa.html">Nuestra Empresa</a>
+                  <a class="nav-link active" href="productos.html">Productos</a>
+                  <a class="nav-link active" href="servicios.html">Servicios</a>
+                  <a class="nav-link active" href="contacto.html">Contacto</a>
+                  
+                </div>
+              </div>
+            </div>
+          </nav>
       </header>
   
   
-      
-      
-  
-        
-        
-          
-  
-            <form class="form">
+  <section class="formContacto">
 
-              <h3 class="titulo-c"> Comunicate con nosotros!!!</h3>
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">Nombre y Apellido</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre y Apellido">
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput2" class="form-label">Correo Electronico</label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput2" class="form-label">Telefono</label>
+      <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Celular">
+    </div>
+    <div class="form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+      <label for="floatingTextarea">Ingresa tu consulta aqui</label>
+      <button class="btn btn-outline-secondary" type="button" id="button-addon1">Enviar</button>
+    </div>
 
-              <fieldset>
-                <legend>Formulario de Contacto</legend>
-                <label for="nombre">Nombre y Apellido:</label><
-                <input type="text"  required name="nombre"/>  
-                <label for="mail">Correo Electronico:</label>
-                <input type="email" name="mail" required />
-                <label for="contrasenia">Password:</label>
-                <input type="password" required name="contrasenia"/>
-                <label for="mensaje">Mandanos tu mensaje</label> 
-                <textarea name="mensaje" cols="70" rows="10"></textarea>
-                <input  type="reset"  value="Borrar Datos" />
-                <input   type="submit"  value="enviar" />
-              </fieldset>
-            </form>
+
+  </section>
+      
         
   
-        <section class="divs">
+        <section class="divH">
   
           <div class="horarios"> 
             
   
-            <h3 class="titulo-c">Horarios de Atencion </h3>
+            <h1 class="titulo-c">Horarios de Atencion </h1>
   
             <p> Estamos de Lunes a Viernes de 09:00hs a 16:00hs</p>
   
-            <h3 class="titulo-c">Donde nos Ubicamos </h3>
+            <h2 class="titulo-c">Donde nos Ubicamos </h2>
             <p> Sabattini 2837, CORDOBA 5000 Córdoba, Provincia de Córdoba, Argentina </p>
   
   
           </div>
-          <div class="mapa"> 
-            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212.7690686005896!2d-64.14912891696272!3d-31.43326658905323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2ccc2380ddb%3A0x629cc42fe1b7cf36!2sAv.%20Amadeo%20Sabattini%202837%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1690770562872!5m2!1ses!2sar" width="300px" height="200px" style="border: 4px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  
-            
-  
-          </div>
+          
         
         </section>
+
+        <article class="mapaContacto"> 
+
+
+            <div class="mapa"> 
+
+              
+              
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212.7690686005896!2d-64.14912891696272!3d-31.43326658905323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2ccc2380ddb%3A0x629cc42fe1b7cf36!2sAv.%20Amadeo%20Sabattini%202837%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1690770562872!5m2!1ses!2sar"  style="border: 4px;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+              
+    
+            </div>
+          
+          
+        </article>
   
         <div class="wbflot"> 
 
@@ -107,16 +118,19 @@
   
         <footer class="footer">
           <img src="../multimedia/mundoport.jpeg"  width="40" height="40" alt="MDN" />
+    
+          <p class="f"> Todos los derechos reservados </p>
+          <p class="f"> By Nicolas Avila </p>
       
           <ul>
             <li>
-              <a class="pie" href="https://www.facebook.com/" target="_blank"> <img class="imgrs " src="../multimedia/fb.png" alt=""> </a>
+              <a href="https://www.facebook.com/" target="_blank"> <img class="imgrs " src="../multimedia/fb.png" alt=""> </a>
             </li>
             <li>
-              <a class="pie" href="https://www.instagram.com/" target="_blank"> <img class="imgrs " src="../multimedia/ig.png" alt=""> </a>
+              <a href="https://www.instagram.com/" target="_blank"> <img class="imgrs " src="../multimedia/ig.png" alt=""> </a>
             </li>
             <li>
-              <a class="pie" href="https://web.whatsapp.com//" target="_blank"> <img class="imgrs " src="../multimedia/wb.png" alt=""> </a>
+              <a href="https://web.whatsapp.com//" target="_blank"> <img class="imgrs " src="../multimedia/wb.png" alt=""> </a>
             </li>
             
           </ul>
@@ -125,7 +139,11 @@
 
 
     </div>
-    
+
+    <!-- CDN de Js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+  <!-- CDN de Js-->
 
   </body>
   
