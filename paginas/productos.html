@@ -3,148 +3,257 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portones Automaticos y Sistemas de Seguridad"
+    />
+    <meta
+      name="keywords"
+      content="PORTONES, CORTINAS, ALARMA, SEGURIDAD,CAMARAS"
+    />
 
     <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
     <!--Bootstrap-->
 
     <!--CSS-->
-    <link rel="stylesheet" href="../css/estilo.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <!--CSS-->
-    <link rel="icon" type="image/png" href="../multimedia/mundoport.jpeg">
+    <link rel="icon" type="image/png" href="../multimedia/mundoport.jpeg" />
     <title>Productos</title>
   </head>
 
-  
-  <body>
+  <body class="falsoBody">
+    <header class="headerGlobal">
+      <img
+        src="../multimedia/mundoport.jpeg"
+        class="rounded-circle"
+        alt="logoManosMundo"
+      />
+      <!-- <nav class="navmenu"> -->
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"
+            ><p class="text-warning">Mundoport</p></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <div class="falsobody">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a
+                class="icon-link icon-link-hover"
+                style="--bs-link-hover-color-rgb: 255, 255, 255"
+                href="../paginas/empresa.html"
+              >
+                Nosotros
+                <svg class="bi" aria-hidden="true">
+                  <use xlink:href="#arrow-right"></use>
+                </svg>
+              </a>
+              <a
+                class="icon-link icon-link-hover"
+                style="--bs-link-hover-color-rgb: 255, 255, 255"
+                href="../paginas/productos.html"
+              >
+                Productos
+                <svg class="bi" aria-hidden="true">
+                  <use xlink:href="#arrow-right"></use>
+                </svg>
+              </a>
 
-      
-
-  
-      <header class="header">
-        <!-- encabezado-->
-        
-  
-        <!-- <img src="multimedia/mundoport.jpeg"  width="40" height="40" alt="MDN"  />  -->
-        
-  <img src="../multimedia/mundoport.jpeg" class="rounded-circle" alt="logomundoport">
-  
-  
-        <!-- <nav class="navmenu"> -->
-  
-          <nav class="navbar navbar-expand-lg bg-transparent">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Mundoport</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="empresa.html">Nuestra Empresa</a>
-                  <a class="nav-link active" href="productos.html">Productos</a>
-                  <a class="nav-link active" href="servicios.html">Servicios</a>
-                  <a class="nav-link active" href="contacto.html">Contacto</a>
-                  
-                </div>
-              </div>
+              <a
+                class="icon-link icon-link-hover"
+                style="--bs-link-hover-color-rgb: 255, 255, 255"
+                href="../paginas/servicios.html"
+              >
+                Servicios
+                <svg class="bi" aria-hidden="true">
+                  <use xlink:href="#arrow-right"></use>
+                </svg>
+              </a>
+              <a
+                class="icon-link icon-link-hover"
+                style="--bs-link-hover-color-rgb: 255, 255, 255"
+                href="../paginas/contacto.html"
+              >
+                Contacto
+                <svg class="bi" aria-hidden="true">
+                  <use xlink:href="#arrow-right"></use>
+                </svg>
+              </a>
             </div>
-          </nav>
-      </header>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-      <h1> Catalogo de Productos</h1>
+    <section class="productosCard">
+      <h1 class="textDos">Catalogo de Productos</h1>
 
-      <section class="productosCard">
-      
-      <div class="card" style="width: 25rem; height: 25rem;">
-        <img src="../multimedia/cam1.jpg" class="card-img-top" alt="...">
+      <div class="card">
+        <img
+          src="../multimedia/cam1.jpg"
+          class="card-img-top"
+          alt="camarawifi1"
+        />
         <div class="card-body">
-          <h2 class="card-title">Card title</h2>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h2 class="card-title">Camara Ranger 2</h2>
+          <p class="card-text">
+            Sirena de Seguridad, Comunicacion Bidereccional, vision 360°, vision
+            nocturna, modo privado.
+          </p>
+          <a href="#" class="btn btn-warning">Comprar</a>
         </div>
       </div>
 
-      <div class="card" style="width: 25rem; height: 25rem;">
-        <img src="../multimedia/cam2.jpg" class="card-img-top" alt="...">
+      <div class="card">
+        <img
+          src="../multimedia/cam2.jpg"
+          class="card-img-top"
+          alt="camarawifi2"
+        />
         <div class="card-body">
-          <h2 class="card-title">Card title</h2>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h2 class="card-title">Camaras Wifi Interior - Exterior</h2>
+          <p class="card-text">
+            Camaras para Interior y Exterior, instalacion y garantia de 1 año en
+            todos nuestros productos.
+          </p>
+          <a href="#" class="btn btn-warning">Comprar</a>
         </div>
       </div>
 
-      <div class="card" style="width: 25rem; height: 25rem;">
-        <img src="../multimedia/cam3.jpg" class="card-img-top" alt="...">
+      <div class="card">
+        <img
+          src="../multimedia/cam3.jpg"
+          class="card-img-top"
+          alt="camaraversa3"
+        />
         <div class="card-body">
-          <h2 class="card-title">Card title</h2>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h2 class="card-title">Camara Versa</h2>
+          <p class="card-text">
+            Sirena incorporada, deteccion humana, microfono, vision nocturna a
+            color, resistencia a la interperie.
+          </p>
+          <a href="#" class="btn btn-warning">Comprar</a>
         </div>
       </div>
 
-      <div class="card" style="width: 25rem; height: 25rem;">
-        <img src="../multimedia/cam4.jpg" class="card-img-top" alt="...">
+      <div class="card">
+        <img
+          src="../multimedia/cam4.jpg"
+          class="card-img-top"
+          alt="camarawifi4"
+        />
         <div class="card-body">
-          <h2 class="card-title">Card title</h2>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h2 class="card-title">Camara H8C 360°</h2>
+          <p class="card-text">
+            Vista 360° motorizada con seguimiento inteligente, Sirena, Luces de
+            disuacion, Deteccion Humana.
+          </p>
+          <a href="#" class="btn btn-warning">Comprar</a>
         </div>
       </div>
 
-      <div class="card" style="width: 25rem; height: 25rem;">
-        <img src="../multimedia/mundoport5.jpg" class="card-img-top" alt="...">
+      <div class="card">
+        <img
+          src="../multimedia/mundoport5.jpg"
+          class="card-img-top"
+          alt="camarawifi5"
+        />
         <div class="card-body">
-          <h2 class="card-title">Card title</h2>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h2 class="card-title">
+            Sistemas de Seguridad , Monitoreo y Alarmas
+          </h2>
+          <p class="card-text">
+            Vendemos a Instalamos tu sistema de Seguridad para tu confort y
+            tranquilidad.
+          </p>
+          <a href="#" class="btn btn-warning">Comprar</a>
         </div>
       </div>
 
+      <div class="card">
+        <img
+          src="../multimedia/Purple and Yellow Modern Mobile Payment Flyer_20230818_102050_0000.png"
+          class="card-img-top"
+          alt="camarawifi6"
+        />
+        <div class="card-body">
+          <h2 class="card-title">Cortinas Metalicas</h2>
+          <p class="card-text">
+            Instalacion y material 100% garantizado para la seguridad, confort y
+            tranquilidad tuya y de tu lugar.
+          </p>
+          <a href="#" class="btn btn-warning">Comprar</a>
+        </div>
+      </div>
     </section>
- 
-    <aside class="aside-prod">
-      
-      <div class="wbflot"> 
 
-        <a class="pie" href="https://web.whatsapp.com//" target="_blank"> <img class="imgrs " src="../multimedia/wb.png" alt=""> </a>
+    <footer class="footerGlobal">
+      <img
+        class="logoFooter"
+        src="../multimedia/mundoport.jpeg"
+        alt="logoManosMundo"
+      />
+      <p class="footerText">Todos los derechos reservados</p>
+      <p class="footerText">By Nicolas Avila</p>
 
-
-      </div>
-
-    </aside>
-
-    <footer class="footer">
-      <img src="../multimedia/mundoport.jpeg"  width="40" height="40" alt="MDN" />
-
-      <p class="f"> Todos los derechos reservados </p>
-      <p class="f"> By Nicolas Avila </p>
-  
       <ul>
         <li>
-          <a href="https://www.facebook.com/" target="_blank"> <img class="imgrs " src="../multimedia/fb.png" alt=""> </a>
+          <a href="https://www.facebook.com/MundoPortCoop/" target="_blank">
+            <img
+              class="imgFooter"
+              src="../multimedia/fb.png"
+              alt="iraFacebook"
+            />
+          </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/" target="_blank"> <img class="imgrs " src="../multimedia/ig.png" alt=""> </a>
+          <a
+            href="https://www.instagram.com/mundoportsabattini/"
+            target="_blank"
+          >
+            <img
+              class="imgFooter"
+              src="../multimedia/ig.png"
+              alt="iraInstagram"
+            />
+          </a>
         </li>
         <li>
-          <a href="https://web.whatsapp.com//" target="_blank"> <img class="imgrs " src="../multimedia/wb.png" alt=""> </a>
+          <a href="https://web.whatsapp.com" target="_blank">
+            <img
+              class="imgFooter"
+              src="../multimedia/wb.png"
+              alt="iraWhatsapp"
+            />
+          </a>
         </li>
-        
       </ul>
     </footer>
 
-  </div>
-    
+    <!-- CDN de Js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- CDN de Js-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
-  <!-- CDN de Js-->
-  
+    <!-- CDN de Js-->
   </body>
-  
-
-
 </html>

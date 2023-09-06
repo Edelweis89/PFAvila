@@ -1,0 +1,165 @@
+.falsoBody {
+  background-color: $colorFondo;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1fr 0.1fr;
+  grid-template-areas:
+    "headerGlobal"
+    "cardP"
+    "footerGlobal";
+  height: 100vh;
+
+  .productosCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    grid-area: cardP;
+    color: $colorH1;
+    width: 100%;
+
+    .textDos {
+      text-align: center;
+      display: block;
+      margin-top: 3rem;
+      @include efectoTitulos;
+    }
+
+    .card {
+      width: 85%;
+      background-color: $colorCards;
+      margin: 4rem;
+      color: $colorH1;
+      font-size: 2rem;
+      .card-img-top {
+        gap: 3rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .falsoBody {
+    background-color: $colorFondo;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas:
+      "headerGlobal headerGlobal"
+      "cardP cardP"
+      "footerGlobal footerGlobal";
+    height: 100vh;
+
+    .productosCard {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      color: $colorH1;
+      width: 90%;
+      margin-left: 2rem;
+
+      .textDos {
+        h1 {
+          font-size: 4rem;
+          width: 100%;
+          margin-top: 5rem;
+          @include efectoTitulos;
+        }
+      }
+
+      .card {
+        width: 80%;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: $colorCards;
+        color: $colorH1;
+        font-size: 2rem;
+        grid-area: cardP;
+        left: 2%;
+
+        .card-body {
+          width: 90%;
+
+          .card-text {
+            font-size: 1.5rem;
+          }
+          .btn-warning {
+            margin-top: 1rem;
+            margin-left: 15rem;
+            width: 15rem;
+            font-size: 2rem;
+          }
+        }
+
+        .card-img-top {
+          @include flex-row-center;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .falsoBody {
+    background-color: $colorFondo;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas:
+      "headerGlobal headerGlobal"
+      "cardP cardP"
+      "footerGlobal footerGlobal";
+    height: 100vh;
+
+    .productosCard {
+      @include flex-row-center;
+      color: $colorH1;
+      width: 90%;
+      margin-left: 5rem;
+      position: relative;
+
+      .textDos {
+        font-size: 3rem;
+        width: 100%;
+        margin-top: 5rem;
+        @include flex-row-center;
+        grid-area: title;
+        text-align: center;
+        @include efectoTitulos;
+      }
+
+      .card {
+        width: 26%;
+        height: 40%;
+        @include flex-row-center;
+        background-color: $colorCards;
+        color: $colorH1;
+        font-size: 1rem;
+        grid-area: cardP;
+        .card-text {
+          font-size: 1rem;
+        }
+
+        .card-body {
+          width: 30%;
+          perspective: 1000px;
+
+          .btn-warning {
+            margin-top: 1rem;
+            margin-left: 13rem;
+            width: 15rem;
+            font-size: 2rem;
+          }
+        }
+
+        .card-img-top {
+          @include flex-row-center;
+          width: 100%;
+          height: 70%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+// comentario unico en sass
+/* comentario en sass y en css. */
+
+@import "base/base";
+@import "utilidades/variables";
+@import "utilidades/extend";
+@import "utilidades/mixin";
+@import "layout/header";
+@import "pages/home.scss";
+@import "pages/empresa.scss";
+@import "pages/productos.scss";
+@import "pages/servicios.scss";
+@import "pages/contacto.scss";
+@import "layout/footer";

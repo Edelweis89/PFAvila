@@ -1,0 +1,101 @@
+.footerGlobal {
+  font-family: "poppins";
+  font-size: 2rem;
+  width: 100%;
+  height: 12rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: $colorFooter;
+
+  grid-area: footerGlobal;
+
+  .logoFooter {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    @extend %borderRadius;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .footerText {
+    font-family: "poppins";
+    font: bold;
+    font-size: 1.3rem;
+    color: $colorLink;
+    margin: 1rem;
+  }
+
+  ul {
+    li {
+      display: flex;
+      list-style-type: none;
+      text-decoration: none;
+      a {
+        color: #0f0101;
+      }
+    }
+
+    .imgFooter {
+      width: 2.5rem;
+      height: 2.5rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      margin-right: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .footerGlobal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: footerGlobal;
+
+    .logoFooter {
+      width: 10rem;
+      height: 10rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      @extend %borderRadius;
+    }
+
+    .footerText {
+      font: bold;
+      font-size: 2rem;
+      margin: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footerGlobal {
+    align-items: center;
+    justify-content: space-between;
+
+    .footerText {
+      font-size: 2rem;
+      justify-content: space-between;
+    }
+
+    .imgFooter img {
+      width: 3rem;
+      height: 3rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      margin-right: 3rem;
+    }
+  }
+}
