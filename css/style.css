@@ -12,8 +12,7 @@ html * {
   src: url(../fonts/Poppins-Light.ttf);
 }
 
-.footerGlobal .logoFooter,
-.headerGlobal {
+.footerGlobal .logoFooter, .headerGlobal {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -111,11 +110,7 @@ html * {
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   letter-spacing: 0.1em;
-  text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-    0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-    0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-    0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-    0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+  text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
 }
 .bodyIndex .fondoText p {
   color: #fefae0;
@@ -168,11 +163,7 @@ html * {
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.1em;
-    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-      0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-      0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-      0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-      0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
   }
   .bodyIndex .fondoText p {
     color: #fefae0;
@@ -240,11 +231,7 @@ html * {
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.1em;
-    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-      0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-      0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-      0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-      0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
   }
   .bodyIndex .fondoText p {
     color: #fefae0;
@@ -288,11 +275,7 @@ html * {
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   letter-spacing: 0.1em;
-  text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-    0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-    0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-    0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-    0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+  text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
 }
 .bodyEmpresa #carouselExampleAutoplaying {
   grid-area: carouselEmpresa;
@@ -329,8 +312,8 @@ html * {
     margin: 2rem;
   }
   .bodyEmpresa .textEmpresa .font-monospace {
-    margin-left: 5rem;
-    font-size: 9rem;
+    margin-left: 4rem;
+    font-size: 7rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -338,11 +321,7 @@ html * {
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.1em;
-    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-      0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-      0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-      0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-      0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -385,11 +364,7 @@ html * {
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.1em;
-    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-      0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-      0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-      0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-      0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
   }
 }
 .falsoBody {
@@ -415,11 +390,7 @@ html * {
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   letter-spacing: 0.1em;
-  text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-    0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-    0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-    0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-    0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+  text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
 }
 .falsoBody .productosCard .card {
   width: 85%;
@@ -456,11 +427,7 @@ html * {
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.1em;
-    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-      0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-      0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-      0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-      0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
   }
   .falsoBody .productosCard .card {
     width: 80%;
@@ -522,11 +489,7 @@ html * {
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.1em;
-    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-      0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-      0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-      0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-      0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
   }
   .falsoBody .productosCard .card {
     width: 26%;
@@ -586,11 +549,7 @@ html * {
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   letter-spacing: 0.1em;
-  text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-    0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-    0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-    0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-    0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+  text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
 }
 .bodyServicios .asideProd {
   width: 90%;
@@ -640,16 +599,12 @@ html * {
   .bodyServicios .carouselServicios .tituloServicio {
     color: #ecb80a;
     font-size: 3rem;
-    margin-left: 10rem;
+    margin-left: 3rem;
     margin-bottom: 10rem;
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.1em;
-    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-      0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-      0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-      0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-      0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
   }
   .bodyServicios .asideProd {
     width: 80%;
@@ -704,11 +659,7 @@ html * {
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.1em;
-    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-      0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-      0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-      0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-      0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
   }
   .bodyServicios .asideProd {
     width: 90%;
@@ -788,11 +739,7 @@ html * {
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   letter-spacing: 0.1em;
-  text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-    0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-    0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-    0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-    0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+  text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
 }
 .contacto .mapaContacto {
   color: #fefae0;
@@ -864,11 +811,7 @@ html * {
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.1em;
-    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-      0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-      0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-      0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-      0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
   }
   .contacto .mapaContacto {
     color: #fefae0;
@@ -939,11 +882,7 @@ html * {
     text-transform: uppercase;
     text-rendering: optimizeLegibility;
     letter-spacing: 0.1em;
-    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
-      0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
-      0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
-      0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
-      0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
+    text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
   }
   .contacto .mapaContacto {
     width: 70%;
