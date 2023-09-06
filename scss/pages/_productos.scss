@@ -12,10 +12,11 @@
   .productosCard {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     grid-area: cardP;
     color: $colorH1;
-    width: 100%;
+    width: 90%;
+    margin-left: 4rem;
 
     .textDos {
       text-align: center;
@@ -25,13 +26,13 @@
     }
 
     .card {
-      width: 85%;
+      width: 80%;
       background-color: $colorCards;
-      margin: 4rem;
+      margin: 2rem;
       color: $colorH1;
       font-size: 2rem;
       .card-img-top {
-        gap: 3rem;
+        gap: 1rem;
       }
     }
   }
@@ -55,7 +56,7 @@
       flex-wrap: wrap;
       color: $colorH1;
       width: 90%;
-      margin-left: 2rem;
+      margin-left: 4rem;
 
       .textDos {
         h1 {
@@ -117,7 +118,7 @@
       @include flex-row-center;
       color: $colorH1;
       width: 90%;
-      margin-left: 5rem;
+      margin-left: 7rem;
       position: relative;
 
       .textDos {

@@ -38,9 +38,6 @@ html * {
 .headerGlobal .navbar navbar-expand-lg bg-transparent {
   display: flex;
 }
-.headerGlobal .navbar navbar-expand-lg bg-transparent .container-fluid .navbar-toggler {
-  border-color: lightgreen;
-}
 
 @media screen and (min-width: 480px) and (max-width: 1199px) {
   .headerGlobal {
@@ -381,10 +378,11 @@ html * {
 .falsoBody .productosCard {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   grid-area: cardP;
   color: #ecb80a;
-  width: 100%;
+  width: 90%;
+  margin-left: 4rem;
 }
 .falsoBody .productosCard .textDos {
   text-align: center;
@@ -396,14 +394,14 @@ html * {
   text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
 }
 .falsoBody .productosCard .card {
-  width: 85%;
+  width: 80%;
   background-color: #252422;
-  margin: 4rem;
+  margin: 2rem;
   color: #ecb80a;
   font-size: 2rem;
 }
 .falsoBody .productosCard .card .card-img-top {
-  gap: 3rem;
+  gap: 1rem;
 }
 
 @media screen and (min-width: 480px) and (max-width: 1199px) {
@@ -421,7 +419,7 @@ html * {
     flex-wrap: wrap;
     color: #ecb80a;
     width: 90%;
-    margin-left: 2rem;
+    margin-left: 4rem;
   }
   .falsoBody .productosCard .textDos h1 {
     font-size: 4rem;
@@ -477,7 +475,7 @@ html * {
     flex-wrap: wrap;
     color: #ecb80a;
     width: 90%;
-    margin-left: 5rem;
+    margin-left: 7rem;
     position: relative;
   }
   .falsoBody .productosCard .textDos {
@@ -543,7 +541,7 @@ html * {
   flex-direction: row;
   flex-wrap: wrap;
   grid-area: carouselServicio;
-  margin-left: 5rem;
+  margin-left: 3rem;
 }
 .bodyServicios .carouselServicios .tituloServicio {
   color: #ecb80a;
@@ -555,17 +553,17 @@ html * {
   text-shadow: 0 -1px 0 #ff9a02, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(226, 128, 47, 0.9);
 }
 .bodyServicios .asideProd {
-  width: 90%;
+  width: 95%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   color: #fefae0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   grid-area: asideProd;
 }
 .bodyServicios .asideProd .text-start {
   margin-top: 3rem;
-  margin-left: 5rem;
+  margin-left: 3rem;
   font-size: 2rem;
   text-align: center;
 }
@@ -575,7 +573,7 @@ html * {
 .bodyServicios .asideProd .tarjetaCredito img {
   width: 70%;
   height: 70%;
-  margin-left: 5rem;
+  margin-left: 3rem;
   margin-bottom: 5rem;
 }
 
@@ -592,12 +590,12 @@ html * {
   }
   .bodyServicios .carouselServicios {
     margin-top: 8rem;
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     grid-area: carouselServicio;
-    margin-left: 10rem;
+    margin-left: 5rem;
   }
   .bodyServicios .carouselServicios .tituloServicio {
     color: #ecb80a;
@@ -621,7 +619,7 @@ html * {
   }
   .bodyServicios .asideProd .text-start {
     margin-top: 3rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
     font-size: 2rem;
     text-align: center;
   }
@@ -631,7 +629,7 @@ html * {
   .bodyServicios .asideProd .tarjetaCredito img {
     width: 90%;
     height: 90%;
-    margin-left: 10rem;
+    margin-left: 5rem;
     margin-bottom: 2rem;
   }
 }
@@ -704,8 +702,8 @@ html * {
 }
 .contacto .formContacto {
   width: 90%;
-  font-size: 1.5rem;
-  margin-top: 3rem;
+  font-size: 1rem;
+  margin-top: 2rem;
   height: 90%;
   background: #ffb703;
   background: conic-gradient(from 0deg, #ffb703, #000000);
