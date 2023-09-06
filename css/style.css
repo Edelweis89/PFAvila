@@ -38,6 +38,9 @@ html * {
 .headerGlobal .navbar navbar-expand-lg bg-transparent {
   display: flex;
 }
+.headerGlobal .navbar navbar-expand-lg bg-transparent .container-fluid .navbar-toggler {
+  border-color: lightgreen;
+}
 
 @media screen and (min-width: 480px) and (max-width: 1199px) {
   .headerGlobal {

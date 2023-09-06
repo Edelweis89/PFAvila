@@ -17,6 +17,12 @@
 
   .navbar navbar-expand-lg bg-transparent {
     display: flex;
+
+    .container-fluid {
+      .navbar-toggler {
+        border-color: lightgreen;
+      }
+    }
   }
 }
 
