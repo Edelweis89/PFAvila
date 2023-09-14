@@ -1,5 +1,4 @@
 .contacto {
-  font-family: "Roboto", sans-serif;
   background-color: $colorFondo;
   color: $colorParrafo;
   @include gridCentrado;
@@ -16,9 +15,9 @@
 
   .formContacto {
     margin-top: 4rem;
-    width: 80%;
+    width: 90%;
     font-size: 2rem;
-    padding: 5rem;
+    padding: 2rem;
     background: $fondoTitulo;
     color: $colorH1;
     @include gridCentrado;
@@ -34,7 +33,7 @@
   }
 
   .divHorarios {
-    padding: 3rem;
+    padding: 1rem;
     width: 90%;
     color: $colorParrafo;
     font-size: 2rem;
@@ -55,9 +54,9 @@
       padding: 3rem;
       width: 90%;
       color: $colorH1;
-      font-size: 4rem;
+      font-size: 3rem;
       @include gridCentrado;
-      margin-top: 3rem;
+      margin-top: 1rem;
       @include efectoTitulos;
     }
   }

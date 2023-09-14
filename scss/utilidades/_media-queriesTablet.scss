@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 600px) and (max-width: 1199px) {
   /* header */
 
   .headerGlobal {
@@ -258,6 +258,7 @@
       font-size: 1.5rem;
       margin-top: 5rem;
       margin-bottom: 5rem;
+      flex-wrap: nowrap;
 
       .elem-group {
         margin-top: 3rem;

@@ -450,7 +450,6 @@ html * {
 }
 
 .contacto {
-  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #000000;
   display: grid;
@@ -463,9 +462,9 @@ html * {
 }
 .contacto .formContacto {
   margin-top: 4rem;
-  width: 80%;
+  width: 90%;
   font-size: 2rem;
-  padding: 5rem;
+  padding: 2rem;
   background: #0466c8;
   color: #ffffff;
   display: grid;
@@ -481,7 +480,7 @@ html * {
   margin-top: 3rem;
 }
 .contacto .divHorarios {
-  padding: 3rem;
+  padding: 1rem;
   width: 90%;
   color: #000000;
   font-size: 2rem;
@@ -503,11 +502,11 @@ html * {
   padding: 3rem;
   width: 90%;
   color: #ffffff;
-  font-size: 4rem;
+  font-size: 3rem;
   display: grid;
   place-items: center;
   height: auto;
-  margin-top: 3rem;
+  margin-top: 1rem;
   text-transform: uppercase;
   text-rendering: optimizeLegibility;
   letter-spacing: 0.1em;
@@ -608,7 +607,7 @@ html * {
   margin: 1rem;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 600px) and (max-width: 1199px) {
   /* header */
   .headerGlobal {
     font-size: 1.6rem;
@@ -962,6 +961,7 @@ html * {
     font-size: 1.5rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
+    flex-wrap: nowrap;
   }
   .contacto .formContacto .elem-group {
     margin-top: 3rem;
