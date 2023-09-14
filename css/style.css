@@ -85,8 +85,8 @@ html * {
   box-shadow: 0 1px 1px #000000;
   color: #ffffff;
   text-align: left;
-  animation: 2s anim-lineUp ease-out;
   -webkit-animation: 2s anim-lineUp ease-out;
+  animation: 2s anim-lineUp ease-out;
 }
 .bodyIndex .fondoText .textUno:hover {
   box-shadow: 0 5px 20px #000814;
@@ -177,8 +177,8 @@ html * {
   box-shadow: 0 1px 1px #000000;
   color: #ffffff;
   text-align: left;
-  animation: 2s anim-lineUp ease-out;
   -webkit-animation: 2s anim-lineUp ease-out;
+  animation: 2s anim-lineUp ease-out;
 }
 .bodyEmpresa .textEmpresa .font-monospace:hover {
   box-shadow: 0 5px 20px #000814;
@@ -250,8 +250,8 @@ html * {
   box-shadow: 0 1px 1px #000000;
   color: #ffffff;
   text-align: left;
-  animation: 2s anim-lineUp ease-out;
   -webkit-animation: 2s anim-lineUp ease-out;
+  animation: 2s anim-lineUp ease-out;
 }
 .falsoBody .productosCard .textDos:hover {
   box-shadow: 0 5px 20px #000814;
@@ -293,8 +293,8 @@ html * {
   box-shadow: 0 1px 1px #000000;
   color: #ffffff;
   text-align: left;
-  animation: 2s anim-lineUp ease-out;
   -webkit-animation: 2s anim-lineUp ease-out;
+  animation: 2s anim-lineUp ease-out;
   margin-bottom: 2rem;
   display: grid;
   place-items: center;
@@ -382,8 +382,8 @@ html * {
   box-shadow: 0 1px 1px #000000;
   color: #ffffff;
   text-align: left;
-  animation: 2s anim-lineUp ease-out;
   -webkit-animation: 2s anim-lineUp ease-out;
+  animation: 2s anim-lineUp ease-out;
 }
 .bodyServicios .carouselServicios .tituloServicio:hover {
   box-shadow: 0 5px 20px #000814;
@@ -515,8 +515,8 @@ html * {
   box-shadow: 0 1px 1px #000000;
   color: #ffffff;
   text-align: left;
-  animation: 2s anim-lineUp ease-out;
   -webkit-animation: 2s anim-lineUp ease-out;
+  animation: 2s anim-lineUp ease-out;
 }
 .contacto .divHorarios .tituloHorarios:hover {
   box-shadow: 0 5px 20px #000814;
@@ -674,8 +674,8 @@ html * {
     box-shadow: 0 1px 1px #000000;
     color: #ffffff;
     text-align: left;
-    animation: 2s anim-lineUp ease-out;
     -webkit-animation: 2s anim-lineUp ease-out;
+    animation: 2s anim-lineUp ease-out;
     margin-bottom: 3rem;
   }
   .bodyIndex .fondoText .textUno:hover {
@@ -751,8 +751,8 @@ html * {
     box-shadow: 0 1px 1px #000000;
     color: #ffffff;
     text-align: left;
-    animation: 2s anim-lineUp ease-out;
     -webkit-animation: 2s anim-lineUp ease-out;
+    animation: 2s anim-lineUp ease-out;
     padding-left: 10rem;
   }
   .bodyEmpresa .textEmpresa .font-monospace:hover {
@@ -804,8 +804,8 @@ html * {
     box-shadow: 0 1px 1px #000000;
     color: #ffffff;
     text-align: left;
-    animation: 2s anim-lineUp ease-out;
     -webkit-animation: 2s anim-lineUp ease-out;
+    animation: 2s anim-lineUp ease-out;
   }
   .falsoBody .productosCard .textDos:hover {
     box-shadow: 0 5px 20px #000814;
@@ -895,8 +895,8 @@ html * {
     box-shadow: 0 1px 1px #000000;
     color: #ffffff;
     text-align: left;
-    animation: 2s anim-lineUp ease-out;
     -webkit-animation: 2s anim-lineUp ease-out;
+    animation: 2s anim-lineUp ease-out;
   }
   .bodyServicios .carouselServicios .tituloServicio:hover {
     box-shadow: 0 5px 20px #000814;
@@ -1088,8 +1088,8 @@ html * {
     box-shadow: 0 1px 1px #000000;
     color: #ffffff;
     text-align: left;
-    animation: 2s anim-lineUp ease-out;
     -webkit-animation: 2s anim-lineUp ease-out;
+    animation: 2s anim-lineUp ease-out;
   }
   .bodyEmpresa .textEmpresa .font-monospace:hover {
     box-shadow: 0 5px 20px #000814;
@@ -1158,8 +1158,8 @@ html * {
     box-shadow: 0 1px 1px #000000;
     color: #ffffff;
     text-align: left;
-    animation: 2s anim-lineUp ease-out;
     -webkit-animation: 2s anim-lineUp ease-out;
+    animation: 2s anim-lineUp ease-out;
   }
   .falsoBody .productosCard .textDos:hover {
     box-shadow: 0 5px 20px #000814;
@@ -1256,8 +1256,8 @@ html * {
     box-shadow: 0 1px 1px #000000;
     color: #ffffff;
     text-align: left;
-    animation: 2s anim-lineUp ease-out;
     -webkit-animation: 2s anim-lineUp ease-out;
+    animation: 2s anim-lineUp ease-out;
   }
   .bodyServicios .carouselServicios .tituloServicio:hover {
     box-shadow: 0 5px 20px #000814;
