@@ -1,6 +1,7 @@
 .falsoBody {
+  font-family: "Roboto", sans-serif;
   background-color: $colorFondo;
-  display: grid;
+  @include gridCentrado;
   grid-template-columns: 1fr;
   grid-template-rows: 0.1fr 1fr 0.1fr;
   grid-template-areas:
@@ -10,156 +11,43 @@
   height: 100vh;
 
   .productosCard {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    @include gridCentrado;
     grid-area: cardP;
     color: $colorH1;
     width: 90%;
-    margin-left: 4rem;
 
     .textDos {
-      text-align: center;
-      display: block;
+      width: 90%;
+      @include gridCentrado;
       margin-top: 3rem;
+      padding-left: 10rem;
       @include efectoTitulos;
     }
 
     .card {
-      width: 80%;
-      background-color: $colorCards;
-      margin: 2rem;
-      color: $colorH1;
-      font-size: 2rem;
-      .card-img-top {
-        gap: 1rem;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 480px) and (max-width: 1199px) {
-  .falsoBody {
-    background-color: $colorFondo;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.1fr 1fr 0.1fr;
-    grid-template-areas:
-      "headerGlobal headerGlobal"
-      "cardP cardP"
-      "footerGlobal footerGlobal";
-    height: 100vh;
-
-    .productosCard {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      color: $colorH1;
       width: 90%;
+      margin-top: 4rem;
       margin-left: 4rem;
-
-      .textDos {
-        h1 {
-          font-size: 4rem;
-          width: 100%;
-          margin-top: 5rem;
-          @include efectoTitulos;
-        }
-      }
-
-      .card {
-        width: 80%;
-
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        background-color: $colorCards;
-        color: $colorH1;
-        font-size: 2rem;
-        grid-area: cardP;
-        left: 2%;
-
-        .card-body {
-          width: 90%;
-
-          .card-text {
-            font-size: 1.5rem;
-          }
-          .btn-warning {
-            margin-top: 1rem;
-            margin-left: 15rem;
-            width: 15rem;
-            font-size: 2rem;
-          }
-        }
-
-        .card-img-top {
-          @include flex-row-center;
-          width: 100%;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .falsoBody {
-    background-color: $colorFondo;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.1fr 1fr 0.1fr;
-    grid-template-areas:
-      "headerGlobal headerGlobal"
-      "cardP cardP"
-      "footerGlobal footerGlobal";
-    height: 100vh;
-
-    .productosCard {
-      @include flex-row-center;
+      margin-right: 4rem;
       color: $colorH1;
-      width: 90%;
-      margin-left: 7rem;
-      position: relative;
+      font-size: 1.3rem;
+      @include efectoTitulos;
+      margin-bottom: 2rem;
+      @include gridCentrado;
 
-      .textDos {
-        font-size: 3rem;
-        width: 100%;
-        margin-top: 5rem;
-        @include flex-row-center;
-        grid-area: title;
-        text-align: center;
-        @include efectoTitulos;
+      .card-title {
+        margin-top: 3rem;
+        font-size: 2rem;
+        color: $colorLink;
+        margin-bottom: 3.5rem;
+        @include gridCentrado;
       }
 
-      .card {
-        width: 26%;
-        height: 40%;
-        @include flex-row-center;
-        background-color: $colorCards;
-        color: $colorH1;
-        font-size: 1rem;
-        grid-area: cardP;
-        .card-text {
-          font-size: 1rem;
-        }
-
-        .card-body {
-          width: 30%;
-          perspective: 1000px;
-
-          .btn-warning {
-            margin-top: 1rem;
-            margin-left: 13rem;
-            width: 15rem;
-            font-size: 2rem;
-          }
-        }
-
-        .card-img-top {
-          @include flex-row-center;
-          width: 100%;
-          height: 70%;
-        }
+      .btn-warning {
+        @include gridCentrado;
+        margin-top: 5rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
       }
     }
   }

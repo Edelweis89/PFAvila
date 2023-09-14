@@ -1,7 +1,7 @@
 // comentario unico en sass
 /* comentario en sass y en css. */
-
 @import "base/base";
+@import "utilidades/fonts";
 @import "utilidades/variables";
 @import "utilidades/extend";
 @import "utilidades/mixin";
@@ -12,3 +12,5 @@
 @import "pages/servicios.scss";
 @import "pages/contacto.scss";
 @import "layout/footer";
+@import "utilidades/media-queriesTablet";
+@import "utilidades/media-queriesDesktop";

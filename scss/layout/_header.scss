@@ -1,57 +1,22 @@
 .headerGlobal {
   width: 100%;
-  height: 18rem;
-  font-size: 1.8rem;
-  font-family: "poppins";
-  background: transparent;
-  display: flex;
+  @include flexboxCentrado;
   justify-content: space-between;
-  align-items: center;
+  font-size: 0.5rem;
+  background: $colorHeaderFooter;
   grid-area: headerGlobal;
-  @extend %borderRadius;
 
   img {
-    width: 10rem;
-    height: 10rem;
+    width: 6rem;
+    height: 6rem;
+    margin: 2rem;
   }
 
-  .navbar navbar-expand-lg bg-transparent {
-    display: flex;
-  }
-}
-
-@media screen and (min-width: 480px) and (max-width: 1199px) {
-  .headerGlobal {
-    font-size: 1.6rem;
-    @extend %borderRadius;
-
-    img {
-      width: 7rem;
-      height: 7rem;
-    }
-
-    .navbar navbar-nav {
-      font-size: 2rem;
-      a {
-        font-size: 3rem;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .headerGlobal {
-    width: 100%;
-    height: 10rem;
-    font-family: "poppins";
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    grid-area: headerGlobal;
-
-    img {
-      width: 8rem;
-      height: 8rem;
+  .container-fluid {
+    .navbar-nav {
+      list-style: none;
+      text-decoration: none;
+      font-size: 1.5rem;
     }
   }
 }

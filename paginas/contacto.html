@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portones Automaticos y Sistemas de Seguridad"
+      content="Contacto, Formulario, Direccion, Horarios de Atencion"
     />
     <meta
       name="keywords"
-      content="PORTONES, CORTINAS, ALARMA, SEGURIDAD,CAMARAS"
+      content="consulta,contacto, direccion, telefono, ubicacion"
     />
 
     <!--Bootstrap-->
@@ -24,7 +24,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="../css/style.css" />
     <!--CSS-->
-    <link rel="icon" type="image/png" href="../multimedia/mundoport.jpeg" />
+    <link rel="icon" type="image/png" href="../multimedia/logoMundoport.png" />
     <title>Contacto</title>
   </head>
 
@@ -33,132 +33,96 @@
       <a href="../index.html">
         <img
           class="rounded-circle"
-          src="../multimedia/mundoport.jpeg"
+          src="../multimedia/logoMundoport.png"
           alt="logoManosMundo"
         />
       </a>
       <!-- <nav class="navmenu"> -->
-      <nav class="navbar navbar-expand-lg bg-warning">
+      <nav class="navbar bg-transparent navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"
-            ><p class="text-dark">Mundoport</p></a
+          <a class="navbar-brand text-info fs-1" href="../index.html"
+            >MundoPort</a
           >
           <button
-            class="navbar-toggler btn btn-outline-warning"
+            class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon bg-white"></span>
           </button>
-
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a
-                class="icon-link icon-link-hover"
-                style="--bs-link-hover-color-rgb: 255, 255, 255"
-                href="../paginas/empresa.html"
-              >
-                Nosotros
-                <svg class="bi" aria-hidden="true">
-                  <use xlink:href="#arrow-right"></use>
-                </svg>
-              </a>
-              <a
-                class="icon-link icon-link-hover"
-                style="--bs-link-hover-color-rgb: 255, 255, 255"
-                href="../paginas/productos.html"
-              >
-                Productos
-                <svg class="bi" aria-hidden="true">
-                  <use xlink:href="#arrow-right"></use>
-                </svg>
-              </a>
-
-              <a
-                class="icon-link icon-link-hover"
-                style="--bs-link-hover-color-rgb: 255, 255, 255"
-                href="../paginas/servicios.html"
-              >
-                Servicios
-                <svg class="bi" aria-hidden="true">
-                  <use xlink:href="#arrow-right"></use>
-                </svg>
-              </a>
-              <a
-                class="icon-link icon-link-hover"
-                style="--bs-link-hover-color-rgb: 255, 255, 255"
-                href="../paginas/contacto.html"
-              >
-                Contacto
-                <svg class="bi" aria-hidden="true">
-                  <use xlink:href="#arrow-right"></use>
-                </svg>
-              </a>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../paginas/empresa.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../paginas/productos.html"
+                  >Productos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../paginas/servicios.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../paginas/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
     </header>
 
     <section class="formContacto">
-      <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label"
-          >Nombre y Apellido</label
-        >
-        <input
-          type="text"
-          class="form-control"
-          id="formGroupExampleInput"
-          placeholder="Nombre y Apellido"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="formGroupExampleInput2" class="form-label"
-          >Correo Electronico</label
-        >
-        <input
-          type="text"
-          class="form-control"
-          id="formGroupExampleInput2"
-          placeholder="Email"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="formGroupExampleInput2" class="form-label">Telefono</label>
-        <input
-          type="text"
-          class="form-control"
-          id="formGroupExampleInput2"
-          placeholder="Celular"
-        />
-      </div>
-      <div class="form-floating">
-        <textarea
-          class="form-control"
-          placeholder="Leave a comment here"
-          id="floatingTextarea"
-        ></textarea>
-        <label for="floatingTextarea">Consulta</label>
-        <button
-          class="btn btn-outline-secondary"
-          type="button"
-          id="button-addon1"
-        >
-          Enviar
-        </button>
-      </div>
+      <h1>Tenes alguna consulta?</h1>
+      <p>
+        A través de este formulario podes enviarnos un mensaje para ayudarte con
+        cualquier inquietud. Podes Consultarnos por tu Facturacion, por nuestros
+        servicios o para pedir presupuestos.. Te responderemos a la brevedad.
+      </p>
+
+      <form action="" method="post">
+        <div class="elem-group">
+          <label for="name">Nombre y Apellido</label>
+          <input type="text" id="name" placeholder="Nombre" required />
+        </div>
+        <div class="elem-group">
+          <label for="email">Correo electrónico</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Correo electrónico"
+            required
+          />
+        </div>
+
+        <div class="elem-group">
+          <label for="message"></label>
+          <textarea
+            id="message"
+            placeholder="Escribe tu mensaje aquí."
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Enviar mensaje</button>
+      </form>
     </section>
 
     <section class="divHorarios">
-      <h1 class="tituloHorarios">Horarios de Atencion</h1>
+      <h2 class="tituloHorarios">Horarios de Atencion</h2>
 
       <p>Estamos de Lunes a Viernes de 09:00hs a 16:00hs</p>
 
-      <h2 class="tituloHorarios">Donde nos Ubicamos</h2>
+      <h3 class="tituloHorarios">Donde nos Ubicamos</h3>
       <p>Av Sabattini 2837, CP 5000, Provincia de Córdoba, Argentina</p>
     </section>
 
@@ -175,44 +139,27 @@
     <footer class="footerGlobal">
       <img
         class="logoFooter"
-        src="../multimedia/mundoport.jpeg"
+        src="../multimedia/logoMundoport.png"
         alt="logoManosMundo"
       />
-      <p class="footerText">Todos los derechos reservados</p>
-      <p class="footerText">By Nicolas Avila</p>
+      <p class="footerText">
+        © 2023 Nicolas Avila, todos los derechos reservados.
+      </p>
+      <p class="footerText">
+        Direccion: Av Sabattini 2837 - Cordoba - Argentina. CP:5000.
+      </p>
 
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/MundoPortCoop/" target="_blank">
-            <img
-              class="imgFooter"
-              src="../multimedia/fb.png"
-              alt="iraFacebook"
-            />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.instagram.com/mundoportsabattini/"
-            target="_blank"
-          >
-            <img
-              class="imgFooter"
-              src="../multimedia/ig.png"
-              alt="iraInstagram"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="https://web.whatsapp.com" target="_blank">
-            <img
-              class="imgFooter"
-              src="../multimedia/wb.png"
-              alt="iraWhatsapp"
-            />
-          </a>
-        </li>
-      </ul>
+      <a href="https://www.facebook.com/MundoPortCoop/" target="_blank">
+        <img class="imgFooter" src="../multimedia/fb.png" alt="iraFacebook" />
+      </a>
+
+      <a href="https://www.instagram.com/mundoportsabattini/" target="_blank">
+        <img class="imgFooter" src="../multimedia/ig.png" alt="iraInstagram" />
+      </a>
+
+      <a href="https://web.whatsapp.com//" target="_blank">
+        <img class="imgFooter" src="../multimedia/wb.png" alt="" />
+      </a>
     </footer>
 
     <!-- CDN de Js-->

@@ -1,0 +1,307 @@
+@media screen and (min-width: 1200px) {
+  /* header */
+
+  .headerGlobal {
+    height: 10rem;
+    img {
+      width: 6rem;
+      height: 6rem;
+      margin: 1rem;
+    }
+    .container-fluid {
+      .navbar-nav {
+        margin: 1rem;
+      }
+    }
+  }
+
+  /* footer */
+
+  .footerGlobal {
+    height: 12em;
+    justify-content: space-around;
+    padding: 2rem;
+
+    .logoFooter {
+      width: 6rem;
+      height: 6rem;
+      margin-top: 1rem;
+
+      justify-content: space-around;
+    }
+
+    .footerText {
+      font-size: 1.5rem;
+    }
+
+    a {
+      list-style-type: none;
+      text-decoration: none;
+      .imgFooter {
+        width: 4rem;
+        height: 4rem;
+      }
+    }
+  }
+
+  /*home.scss*/
+
+  .bodyIndex {
+    grid-template-columns: 0.4fr 0.4fr 1fr;
+    grid-template-rows: 0.1fr 0.4fr 0.1fr;
+    grid-template-areas:
+      "headerGlobal headerGlobal headerGlobal"
+      "imgFluid imgFluid fondoText"
+      "footerGlobal footerGlobal footerGlobal";
+
+    .img-fluid {
+      width: 70%;
+      padding: 0rem;
+
+      .img-fluid:hover {
+        -webkit-border-radius: 20%;
+        -webkit-box-shadow: 0px 0px 15px 15px $fondoTitulo;
+        box-shadow: 0px 0px 15px 15px $fondoTitulo;
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -moz-border-radius: 20%;
+        -ms-border-radius: 20%;
+        -o-border-radius: 20%;
+        border-radius: 20%;
+      }
+    }
+
+    .fondoText {
+      width: 90%;
+      height: 100vh;
+      color: $colorParrafo;
+      margin-top: 2rem;
+
+      .textUno {
+        color: $colorLink;
+        font-size: 4rem;
+        width: 90%;
+        padding-left: 4rem;
+      }
+
+      p {
+        margin-top: 1rem;
+        width: 90%;
+        color: $colorParrafo;
+        font-size: 2.7rem;
+        text-align: left;
+      }
+    }
+  }
+
+  /*empresa.scss*/
+
+  .bodyEmpresa {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 0.5fr 0.1fr;
+    grid-template-areas:
+      "headerGlobal headerGlobal"
+      "carouselEmpresa textEmpresa"
+      "footerGlobal footerGlobal";
+
+    #carouselExampleAutoplaying {
+      .carousel-item {
+        width: 90%;
+        height: 90%;
+        margin-top: 8%;
+        margin-bottom: 5rem;
+      }
+    }
+
+    .textEmpresa {
+      margin-bottom: 1rem;
+
+      .font-monospace {
+        width: 90%;
+        color: $colorH1;
+        margin-top: 1rem;
+        padding: 6rem;
+        font-size: 6rem;
+        @include efectoTitulos;
+      }
+      .textE {
+        width: 90%;
+        color: $colorParrafo;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        font-size: 2.1rem;
+      }
+    }
+  }
+
+  /* productos.scss */
+
+  .falsoBody {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
+    grid-template-areas:
+      "headerGlobal headerGlobal headerGlobal"
+      "title title title"
+      "cardP cardP cardP"
+      "footerGlobal footerGlobal footerGlobal";
+
+    .productosCard {
+      @include flexboxCentrado;
+      width: 100%;
+      justify-content: space-around;
+
+      .textDos {
+        font-size: 3rem;
+        color: $colorH1;
+        width: 90%;
+
+        margin-bottom: 5rem;
+        @include flexboxCentrado;
+        @include efectoTitulos;
+      }
+
+      .card {
+        width: 26%;
+
+        @include flexboxCentrado;
+        background-color: $fondoTitulo;
+        color: $colorH1;
+        margin-bottom: 10rem;
+
+        .card-text {
+          font-size: 1.5rem;
+          margin-top: 3rem;
+          text-align: left;
+        }
+
+        .card-body {
+          width: 26%;
+
+          .card-title {
+            margin-top: 3rem;
+            font-size: 3rem;
+            text-align: center;
+            color: $colorH1;
+          }
+
+          .btn-warning {
+            margin-top: 2rem;
+            margin-left: 0.1rem;
+            margin-right: 5rem;
+            margin-bottom: 0.5rem;
+            width: 100%;
+            font-size: 2rem;
+          }
+        }
+
+        .card-img-top {
+          @include flexboxCentrado;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  /* servicios.scss */
+
+  .bodyServicios {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 0.5fr 0.1fr;
+    grid-template-areas:
+      "headerGlobal headerGlobal headerGlobal"
+      "carouselServicio asideProd asideProd"
+      "footerGlobal footerGlobal footerGlobal";
+    height: 100vh;
+
+    .carouselServicios {
+      margin-top: 1rem;
+      padding: 3rem;
+      height: 100vh;
+      .carousel-inner {
+        margin-top: 2rem;
+        width: 90%;
+      }
+      .tituloServicio {
+        width: 90%;
+        font-size: 5rem;
+
+        @include efectoTitulos;
+      }
+      .text-pago {
+        margin-top: 1rem;
+        font-size: 2rem;
+        text-align: left;
+        width: 90%;
+      }
+    }
+
+    .asideProd {
+      font-size: 2rem;
+      margin-top: 5rem;
+
+      .text-start {
+        font-size: 2rem;
+        width: 90%;
+      }
+
+      .tarjetaCredito {
+        margin-top: 2rem;
+        img {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  /* contacto.scss*/
+
+  .contacto {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 2fr 2fr 0.1fr;
+    grid-template-areas:
+      "headerGlobal headerGlobal headerGlobal"
+      "form horarios mapa"
+      "form horarios mapa"
+      "footerGlobal footerGlobal footerGlobal";
+
+    .formContacto {
+      width: 90%;
+      font-size: 1.8rem;
+      margin-top: 4rem;
+
+      height: 90%;
+      margin-bottom: 4rem;
+
+      padding: 2rem;
+
+      .elem-group {
+        padding-top: 1rem;
+        margin-top: 1rem;
+      }
+    }
+
+    .divHorarios {
+      width: 90%;
+      margin-top: 1rem;
+      margin-bottom: 5rem;
+
+      .tituloHorarios {
+        color: $colorH1;
+        font-size: 2rem;
+        padding: 4rem;
+      }
+
+      p {
+        margin-top: 5rem;
+        width: 80%;
+      }
+    }
+
+    .mapaContacto {
+      width: 70%;
+      height: 70%;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+}

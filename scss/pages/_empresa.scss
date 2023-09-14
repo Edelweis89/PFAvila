@@ -1,127 +1,52 @@
 .bodyEmpresa {
-  display: grid;
-  grid-template-columns: 2fr;
-  grid-template-rows: repeat(4, 2fr);
+  font-family: "Roboto", sans-serif;
+  @include gridCentrado;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
   grid-template-areas:
-    "headerGlobal headerGlobal"
-    "carouselEmpresa carouselEmpresa"
-    "textEmpresa textEmpresa"
-    "footerGlobal footerGlobal";
-  flex-wrap: wrap;
+    "headerGlobal"
+    "carouselEmpresa"
+    "textEmpresa"
+    "footerGlobal";
   height: 100vh;
-  gap: 0.2rem;
   background-color: $colorFondo;
 
-  .textEmpresa {
-    color: $colorParrafo;
-    font-size: 1.8rem;
-    @include flex-row-center;
-    font-family: "poppins";
-    gap: 2rem;
-    margin: 1rem;
-    width: 95%;
-    grid-area: textEmpresa;
-    .font-monospace {
-      font-size: 2rem;
-      color: $colorH1;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      margin-left: 3rem;
-      @include efectoTitulos;
-    }
-  }
-
   #carouselExampleAutoplaying {
+    @include gridCentrado;
     grid-area: carouselEmpresa;
     width: 90%;
-    margin-left: 2rem;
-  }
-}
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
-  .bodyEmpresa {
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 1fr 1fr 5fr 1fr;
-    grid-template-areas:
-      "headerGlobal headerGlobal"
-      "carouselEmpresa carouselEmpresa"
-      "textEmpresa textEmpresa"
-      "footerGlobal footerGlobal";
-    flex-wrap: wrap;
-    height: 100vh;
-    gap: 2rem;
-
-    #carouselExampleAutoplaying {
-      grid-area: carouselEmpresa;
-      margin: 4rem;
-
-      img {
-        width: 100%;
-        height: 100%;
-      }
+    img {
+      width: 100%;
+      height: 100%;
+      @include gridCentrado;
+      padding: 3rem;
     }
+  }
 
-    .textEmpresa {
+  .textEmpresa {
+    grid-area: textEmpresa;
+    @include gridCentrado;
+    .font-monospace {
       width: 90%;
-      font-size: 2rem;
-      @include flex-row-center;
-      text-align: center;
-      gap: 0.2rem;
-      margin: 2rem;
-
-      .font-monospace {
-        margin-left: 4rem;
-        font-size: 7rem;
-        @include flex-row-center;
-        text-align: center;
-        @include efectoTitulos;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .bodyEmpresa {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 3fr 1fr;
-    grid-template-areas:
-      "headerGlobal headerGlobal"
-      "carouselEmpresa textEmpresa"
-      "footerGlobal footerGlobal";
-    flex-wrap: wrap;
-    height: 100vh;
-    gap: 2rem;
-
-    #carouselExampleAutoplaying {
-      grid-area: carouselEmpresa;
-      margin: 4rem;
-
-      .carousel-item {
-        width: 90%;
-        height: 90%;
-        justify-content: center;
-        margin-left: 5rem;
-      }
+      @include gridCentrado;
+      padding: 3rem;
+      margin-top: 1rem;
+      font-size: 3rem;
+      color: $colorH1;
+      @include efectoTitulos;
     }
 
-    .textEmpresa {
-      width: 95%;
-      font-size: 2rem;
-      @include flex-row-center;
-      gap: 0.2rem;
-      margin: 2rem;
+    .textE {
+      @include gridCentrado;
 
-      .font-monospace {
-        color: $colorH1;
-        margin-left: 5rem;
-        font-size: 10rem;
-        @include flex-row-center;
-        text-align: center;
-        @include efectoTitulos;
-      }
+      width: 90%;
+      color: $colorParrafo;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      font-size: 1.7rem;
     }
   }
 }

@@ -1,0 +1,286 @@
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  /* header */
+
+  .headerGlobal {
+    font-size: 1.6rem;
+
+    img {
+      width: 6rem;
+      height: 6rem;
+    }
+
+    .container-fluid {
+      margin-top: 1rem;
+      .navbar-nav {
+        margin-right: 3rem;
+      }
+    }
+  }
+
+  /* footer */
+
+  .footerGlobal {
+    height: auto;
+    padding: 3rem;
+
+    .logoFooter {
+      width: 6rem;
+      height: 6rem;
+    }
+    a {
+      img {
+        display: block;
+        width: 4rem;
+        height: 4rem;
+        margin: 1rem;
+      }
+    }
+    .footerText {
+      width: 100%;
+      font-size: 1.8rem;
+
+      flex-wrap: nowrap;
+    }
+  }
+
+  /* home.scss*/
+
+  .bodyIndex {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.7fr 0.5fr 0.1fr;
+    grid-template-areas:
+      "headerGlobal"
+      "imgFluid"
+      "fondoText"
+      "footerGlobal";
+
+    .img-fluid {
+      width: 100%;
+      justify-content: center;
+      padding: 2rem;
+
+      img {
+        width: auto;
+        height: auto;
+      }
+    }
+
+    .fondoText {
+      width: 100%;
+      background-color: transparent;
+      text-align: left;
+
+      .textUno {
+        font-size: 3rem;
+        color: $colorH1;
+        text-align: left;
+        @include efectoTitulos;
+
+        margin-bottom: 3rem;
+      }
+
+      p {
+        font-size: 4rem;
+        @include estiloParrafo;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+      }
+    }
+  }
+
+  /* empresa.scss */
+
+  .bodyEmpresa {
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    grid-template-areas:
+      "headerGlobal headerGlobal"
+      "carouselEmpresa carouselEmpresa"
+      "textEmpresa textEmpresa"
+      "footerGlobal footerGlobal";
+
+    #carouselExampleAutoplaying {
+      width: 80%;
+    }
+
+    .textEmpresa {
+      width: 90%;
+      @include estiloParrafo;
+      @include gridCentrado;
+
+      .font-monospace {
+        width: 90%;
+        @include gridCentrado;
+        font-size: 5rem;
+        @include efectoTitulos;
+        padding-left: 10rem;
+      }
+    }
+  }
+
+  /* productos.scss */
+
+  .falsoBody {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas:
+      "headerGlobal"
+      "cardP"
+      "footerGlobal";
+
+    .productosCard {
+      padding: 5rem;
+      width: 100%;
+
+      .textDos {
+        font-size: 3rem;
+        width: 60%;
+        padding: 2rem;
+        margin-bottom: 5rem;
+        text-align: center;
+
+        @include efectoTitulos;
+      }
+
+      .card {
+        width: 90%;
+        font-size: 2rem;
+        margin-top: 3rem;
+
+        margin-bottom: 3rem;
+
+        .card-body {
+          width: 90%;
+          .card-title {
+            @include gridCentrado;
+            margin-top: 3rem;
+            font-size: 2rem;
+            color: $colorLink;
+          }
+
+          .card-text {
+            width: 90%;
+            text-align: left;
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            color: $colorH1;
+          }
+          .btn-warning {
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+          }
+        }
+
+        .card-img-top {
+          @include gridCentrado;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  /* servicios.scss */
+
+  .bodyServicios {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
+    grid-template-areas:
+      "headerGlobal headerGlobal"
+      "carouselServicio carouselServicio"
+      "asideProd asideProd"
+      "footerGlobal footerGlobal";
+    height: 100vh;
+
+    .carouselServicios {
+      grid-area: carouselServicio;
+      .carousel-inner {
+        margin-top: 5rem;
+        width: 100%;
+      }
+      .tituloServicio {
+        width: 90%;
+        color: $colorH1;
+        font-size: 3rem;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+        @include efectoTitulos;
+      }
+      .text-pago {
+        margin-top: 5rem;
+        font-size: 2rem;
+        text-align: left;
+        width: 90%;
+      }
+    }
+
+    .asideProd {
+      width: 90%;
+
+      color: $colorParrafo;
+      font-size: 2rem;
+      grid-area: asideProd;
+      margin-top: 5rem;
+
+      .text-start {
+        margin-top: 3rem;
+
+        font-size: 2rem;
+        text-align: left;
+      }
+
+      .tarjetaCredito {
+        margin-top: 2rem;
+        img {
+          width: 80%;
+          height: 80%;
+
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+
+  /* Contacto.scss*/
+
+  .contacto {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 2fr 2fr 0.1fr;
+    grid-template-areas:
+      "headerGlobal headerGlobal"
+      "form horarios"
+      "mapa horarios"
+      "footerGlobal footerGlobal";
+    height: 100vh;
+
+    .formContacto {
+      width: 90%;
+      font-size: 1.5rem;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+
+      .elem-group {
+        margin-top: 3rem;
+        font-size: 1.5rem;
+      }
+    }
+
+    .divHorarios {
+      width: 90%;
+      color: $colorParrafo;
+      padding: 3rem;
+      margin-bottom: 2rem;
+
+      .tituloHorarios {
+        color: $colorH1;
+        font-size: 2rem;
+      }
+
+      p {
+        margin-top: 2rem;
+        font-size: 2rem;
+        width: 90%;
+      }
+    }
+  }
+}
