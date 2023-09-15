@@ -1,8 +1,11 @@
 .footerGlobal {
   width: 100%;
-  padding: 3rem;
-  height: 28rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  height: 8rem;
+  justify-content: flex-start;
   @include flexboxCentrado;
+
   background: $colorHeaderFooter;
   grid-area: footerGlobal;
 
@@ -10,20 +13,22 @@
     @include flexboxCentrado;
     width: 6rem;
     height: 6rem;
-    margin: 3rem;
+    margin-top: 3rem;
   }
 
   .footerText {
     font-size: 1.4rem;
     @include flexboxCentrado;
     color: $colorFondo;
+    margin-top: 3rem;
   }
-
   a {
     @include flexboxCentrado;
     flex-wrap: nowrap;
     list-style-type: none;
     text-decoration: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     img {
       width: 3rem;
       height: 3rem;
